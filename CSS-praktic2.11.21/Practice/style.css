@@ -10,5 +10,12 @@ body {
     font-size: 17px;
     color: #926239;
     background-color: #fff;
+}
 
+.header {
+    height: 100vh;
+    padding: 1px;
+    background-image: url('https://traversymedia.com/downloads/assets/beachshowcase.jpg');
+    background-size: cover;
+    background-position: center;
 }
