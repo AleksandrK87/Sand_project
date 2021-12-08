@@ -1,0 +1,34 @@
+table {
+    border-collapse: collapse;
+    --padding-size; 20px;
+    --darker-green: #4aa556;
+    --lighter-green: #60d055;
+    --lightgrey: #e9eaed;
+}
+
+table > thead > tr {
+    background-color: blue;
+    color:white;
+}
+
+ td {
+     padding: 20px;
+ }
+
+table > tbody > tr:nth-child(2n) > td {
+    background-color: var(--lightgrey);
+}
+
+table > tbody > tr:nth-child(2n) > td:first-child {
+    background-color: var(--lighter-green);
+    color: white;
+}
+
+table > tbody > tr:nth-child(2n+1) > td:first-child {
+    background-color: var(--darker-green);
+    color: white;
+}
+
+table > tfoot > tr > td:first-child {
+    background-color: var(--darker-green);
+}
