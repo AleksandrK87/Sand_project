@@ -1,0 +1,9 @@
+p::before {
+    content:url(./src/.svg);
+    vertical-align: middle;
+}
+
+p::after {
+    content:url(./src/arrow-right.svg);
+    vertical-align: middle;
+}
