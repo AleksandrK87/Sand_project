@@ -1,8 +1,14 @@
 <html>
   <head>
-    <title></title>
-    <meta content="">
-    <style></style>
-  </head>
-  <body></body>
-</html>
+    
+    </head>
+  <body>
+    <section>
+      <artticle>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni laudantium quae magnam enim deleniti suscipit perspiciatis delectus perferendis, totam ut!</artticle>
+      <artticle>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni laudantium quae magnam enim deleniti suscipit perspiciatis delectus perferendis, totam ut!</artticle>
+      <artticle>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni laudantium quae magnam enim deleniti suscipit perspiciatis delectus perferendis, totam ut!</artticle>
+    </section>
+
+    
+  </body>
+</html> 

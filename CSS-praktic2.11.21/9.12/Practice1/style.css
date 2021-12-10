@@ -1,1 +1,19 @@
- 
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="15" height="15" viewBox="0 0 24 24"><path d="M4,15V9H12V4.16L19.84,12L12,19.84V15H4Z" /></svg>
+body {
+    font-family: sans-serif;
+} 
+
+article {
+    display:inline-block;
+    border: 1px solid black;
+    color: blue;
+    width: 30%;
+}
+
+article::before {
+    content: url('./src/arrow-right.svg');
+}
+
+article::after {
+    content: url('./src/.svg');
+}

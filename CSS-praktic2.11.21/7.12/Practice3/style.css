@@ -26,12 +26,8 @@
     box-sizing: border-box;
   }
   
-  nav ul ul ul {
-    position: absolute;
-    top: 0;
-    left: 100%;
+  
 
-  }
   .sub-nav-list {
     position: absolute;
     left: 0;
@@ -39,20 +35,15 @@
     display: none;
     padding: 0;
   }
+ 
 
-  nav ul ul ul {
+  .sub-nav-list1 {
     position: absolute;
     top: 0;
     left: 100%;
-
+    padding: 0;
+    display: none;
   }
-
-
-  /*.one-sub-nav-list {
-    position: absolute;
-    top: 0;
-    left: 100%;
-  }*/
   
   
   .sub-list-item {
@@ -68,7 +59,7 @@
   }
   
   .sub-nav-list:hover > .sub-nav-list1 {
-        display: block;
+        display: inherit;
   }
   .list-item:hover {
     background-color: #8a2d0f;
